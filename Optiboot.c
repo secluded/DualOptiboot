@@ -474,7 +474,7 @@ void appStart(uint8_t rstFlags) __attribute__ ((naked));
 #if defined(__AVR_ATmega168__) || defined(__AVR_ATmega328P__) || defined(__AVR_ATmega88) || defined(__AVR_ATmega8__) || defined(__AVR_ATmega88__)
   #define FLASHSS_DDR     DDRB
   #define FLASHSS_PORT    PORTB
-  #define FLASHSS         PINB0
+  #define FLASHSS         PINB2
   #define SS              PINB2
 #elif defined (__AVR_ATmega1284P__) || defined (__AVR_ATmega644P__)
   #define FLASHSS_DDR     DDRC
